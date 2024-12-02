@@ -14,8 +14,8 @@
 namespace optimize
 {
   using Scalar = double;
-  using Eigen::all;
-  using Eigen::last;
+  using Eigen::indexing::all;
+  using Eigen::placeholders::last;
   using Index = Eigen::Index;
   using Vector = Eigen::VectorXd;
   using Matrix = Eigen::MatrixXd;
