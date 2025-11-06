@@ -13,12 +13,12 @@
 
 namespace optimize
 {
-  using Scalar = double;
+  using Scalar = float;
   using Eigen::indexing::all;
   using Eigen::placeholders::last;
   using Index = Eigen::Index;
-  using Vector = Eigen::VectorXd;
-  using Matrix = Eigen::MatrixXd;
+  using Vector = Eigen::VectorXf;
+  using Matrix = Eigen::MatrixXf;
   using ScalarLimits = typename std::numeric_limits<Scalar>;
   using IndexLimits = typename std::numeric_limits<Index>;
 
